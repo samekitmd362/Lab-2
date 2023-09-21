@@ -13,7 +13,7 @@ h1 {
     color: #333;
 }
 form {
-    background-color: #4C514A;
+    background-color: #9DA1AA;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -35,8 +35,8 @@ input[type="date"] {
     font-size: 16px;
 }
 input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #9DA1AA;
+    color: #000000;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
