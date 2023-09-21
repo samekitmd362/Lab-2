@@ -1,9 +1,9 @@
 /* CSS page */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     background-color: #20603D; 
     margin: 0;
-    padding: 0;
+    padding: 100px;
 }
 /* Style the form */
 h1 {
@@ -25,23 +25,39 @@ label {
     display: block;
     font-weight: bold;
 }
-input[type="email"],
-input[type="tel"],
-input[type="date"] {
-    width: 100%;
-    padding: 10px;
+#email-input{
+	background-color: #FFFFFF;
+	width: 100%;
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
 }
-input[type="submit"] {
-    background-color: #9DA1AA;
-    color: #000000;
-    border: none;
-    padding: 10px 20px;
+#phone-number-input{
+	background-color: #FFFFFF;
+	width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    cursor: pointer;
     font-size: 16px;
+}
+#date-of-birth{
+	background-color: #FFFFFF;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#submit {
+    background-color: #7D7F7D;
+    color: #000000;
+    width: 16%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
 }
 @media only screen and (min-width: 800px){
   #info{
